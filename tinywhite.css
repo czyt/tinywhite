@@ -469,22 +469,23 @@ table tr td:last-child {
     content: '';
     height: 12px;
     left: 12px;
-    margin-top: -20px;
+    margin-top: -18px;
     position: absolute;
     width: 12px;
 }
 /* 代码框 */
 #write .md-fences {
-    border: 1px solid #7a7a7a;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     -webkit-font-smoothing: initial;
     margin: 2rem 0 !important;
-    /* padding: 0.3rem 0 !important; */
-    padding: 3px 5px;
+    padding: 20px 5px 10px;
     line-height: 1.55rem;
-    border-radius: 2px;
     font-family: 'Fira Code Retina','Roboto Mono', 'Source Sans Pro', 'Microsoft YaHei', '微软雅黑' !important;
     font-size: 0.9rem;
     word-wrap: normal;
+    background-color: #f8f8f8;
 }
 
 #write [mdtype="math_block"] {
